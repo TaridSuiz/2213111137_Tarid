@@ -24,7 +24,7 @@ public class ex04 {
 						+ "CD Unit Price:$"+cdPrice+"\n"
 								+ "CD Quantity:"+cdQuantity+"\n\n"
 								+ "Subtotal:$"+cdSubtotal+"\n"
-								+ "Tax rate:6.25%\n"
+								+ "Tax rate:"+frm.format(TAX_RATE*100)+"%\n"
 								+ "Total:$"+cdTotal
 								+ "\n\nEnd of Program");
 	}
