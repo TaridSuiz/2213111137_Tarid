@@ -1,0 +1,4 @@
+student ID  : 2213111137
+Fullname : Tarid Chanapai
+AKA : TaridSuiz
+ClassDetail: String Methods and Defined Method
