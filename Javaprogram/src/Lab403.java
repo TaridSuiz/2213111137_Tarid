@@ -1,5 +1,4 @@
-import javax.swing.*;
-import java.text.*;
+
 import java.util.*;
 
 public class Lab403 {
@@ -8,8 +7,9 @@ public class Lab403 {
 		Scanner sc = new Scanner(System.in);
 		int count =0;
 		
-		boolean check = "nichi".equalsIgnoreCase("NICHI");
+		
 		System.out.print("Message : ");
+		
 		String ms = sc.nextLine();
 		if(ms.toLowerCase().indexOf("nichi")>=0) {
 			count++;
