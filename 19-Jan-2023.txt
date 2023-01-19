@@ -1,0 +1,5 @@
+student ID  : 2213111137
+Fullname : Tarid Chanapai
+AKA : TaridSuiz
+ClassDetail:  GUI
+ClassDetail:  Encapsulation
