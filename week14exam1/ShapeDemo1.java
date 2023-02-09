@@ -10,12 +10,14 @@ public class ShapeDemo1 {
 		System.out.print("Input height = ");
 		double height = scn.nextDouble();
 		Circle circle = new Circle(radius,null);
+		
+		
 		System.out.println("Circle [radius = "+circle.getRadius()+"]");
 		System.out.println("Circle [area = "+circle.getArea()+"]\n");
 		Cylinder cylinder = new Cylinder(radius,height);
 		System.out.println("Cylinder [Height = "+height+"Radius = "+radius+"]");
-		System.out.println("Circle [radius = "+cylinder.getArea()+"]");
-		System.out.println("Circle [radius = "+cylinder.getVolume()+"]");
+		System.out.println("Cylinder [radius = "+cylinder.getArea()+"]");
+		System.out.println("Cylinder [radius = "+cylinder.getVolume()+"]");
 
 
 
